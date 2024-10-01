@@ -81,3 +81,124 @@ button {
 }
 
 
+/*  carousel image / script */
+.carousel {
+  position: relative;
+  text-align: center; 
+}
+
+.heroProduct {
+  height: 350px; 
+  width: 450px; 
+  object-fit: cover; 
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  /* justify-content: space-between; */
+  width: 30%;
+  
+}
+
+.carousel-btn {
+  background-color: rgba(75, 71, 71, 0.582);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+  margin: 100px;
+  margin-left: 0px;
+}
+
+.carousel-btn:hover {
+  background-color: rgba(255, 255, 255, 0.233);
+}
+
+
+
+
+/* hero section / 1st and 2nd */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.main1 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.section2 {
+  width: 70%;
+  gap: 4rem;
+}
+
+.heroProduct {
+  border-radius: 10px;
+}
+
+.s2_details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section1 {
+  gap: 3rem;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.section1_prdt {
+  display: flex;
+  gap: 1rem;
+}
+
+.price {
+  flex-direction: column;
+  padding-top: 10em;
+}
+
+.price p {
+  font-size: large;
+  font-weight: bolder;
+}
+
+.s1ProductDetails,
+.s2_detailsP {
+  text-align: justify;
+}
+
+.btnPrice,
+.price {
+  display: flex;
+  gap: 1rem;
+}
+
+.section3 {
+  width: 100%;
+  background-color: #000000;
+}
+
+.section3_d1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+
+
