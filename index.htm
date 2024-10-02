@@ -1,113 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-com</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  </head>
+  <body>
+       <!-- This is  a header section  -->
+       <header>
+        <nav class="nav">
+          <ul class="nav_ul">
+            <li class="nav_li1">
+              <a href="/" class="nav-link"> <!-- Link to the homepage or desired page -->
+                  <img
+                      class="navLogo"
+                      src="./img/logo.png"
+                      height="50"
+                      alt="NavLogo"
+                  />
+              </a>
+          </li>
+          
+            <li class="nav_li2">
+              <a href="./index.html">Home</a>
+            </li>
+            <li class="nav_li3">
+              <a href="./product.html">Product</a>
+            </li>
+            <li class="nav_li4">
+              <a href="./about.html">About</a>
+            </li>
+            <li class="nav_li5">
+              <a href="./contact.html">Contact</a>
+            </li>
+            <li class="search nav_li6">
+              <img
+                src="./img/iconSearch.png"
+                class="search"
+                height="22"
+                alt="search"
+              />
+              <input type="text" name="search" id="search" />
+            </li>
+            <li class="btn nav_li7 signin">
+              <a href="signup.html">SignUp</a>
+            </li>
+            <li class="btn nav_li8 login">
+              <a href="./login.html">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-<body>
-  <!-- This is  a header section  -->
-  <header>
-    <nav class="nav">
-      <ul class="nav_ul">
-        <li class="nav_li1">
-          <a href="/" class="nav-link"> <!-- Link to the homepage or desired page -->
-            <img class="navLogo" src="./img/logo.png" height="50" alt="NavLogo" />
-          </a>
-        </li>
 
-        <li class="nav_li2"> <a href="./index.html">Home</a></li>
-        <li class="nav_li3"><a href="./product.html">Product</a></li>
-        <li class="nav_li4"><a href="./about.html">About</a></li>
-        <li class="nav_li5"><a href="./contact.html">Contact</a></li>
-        <li class="search nav_li6"><img src="./img/iconSearch.png" class="search" height="22" alt="search" />
-          <input type="text" name="search" id="search" />
-        </li>
-        <li class="btn nav_li7 signin">
-          <a href="signup.html">SignUp</a>
-        </li>
-        <li class="btn nav_li8 login">
-          <a href="./login.html">Login</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
-
-  <!-- hero section / 1st -->
-  <div class="main">
-    <section class="main1 section2">
+<!-- hero section / 1st -->
+<div class="main">
+  <section class="main1 section2">
       <div class="carousel">
-        <img src="./img/heroProduct.png" id="carouselImage" class="heroProduct" alt="hero product" />
-        <div class="carousel-controls">
-          <button id="prevBtn" class="carousel-btn"><</button>
+          <img
+              src="./img/heroProduct.png"
+              id="carouselImage"
+              class="heroProduct"
+              alt="hero product"
+          />
+          <div class="carousel-controls">
+              <button id="prevBtn" class="carousel-btn"><</button>
               <button id="nextBtn" class="carousel-btn">></button>
-        </div>
+          </div>
       </div>
       <div class="s2_details">
-        <h2>Boat USA R</h2>
-        <p class="s2_detailsP">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique
-          laborum quia, esse error odio, eos inventore necessitatibus totam
-          maxime cupiditate exercitationem saepe, maiores sunt harum
-          voluptatem nulla ea laudantium ut? Tempora voluptas at voluptatum
-          quia deserunt? Earum maiores nihil eveniet rerum animi, tempore quae
-          aliquid? Laudantium, aspernatur sit ullam doloribus impedit, dolores
-          omnis beatae accusamus est atque labore commodi nostrum corporis
-          ipsum enim eum ex! Sit nihil doloribus quae. Iure sunt recusandae
-          quasi aliquam excepturi repellat esse saepe eveniet, fuga porro,
-          enim non consequatur similique nihil incidunt.
-        </p>
-      
+          <h2>Boat USA R</h2>
+          <p class="s2_detailsP">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique
+              laborum quia, esse error odio, eos inventore necessitatibus totam
+              maxime cupiditate exercitationem saepe, maiores sunt harum
+              voluptatem nulla ea laudantium ut? Tempora voluptas at voluptatum
+              quia deserunt? Earum maiores nihil eveniet rerum animi, tempore quae
+              aliquid? Laudantium, aspernatur sit ullam doloribus impedit, dolores
+              omnis beatae accusamus est atque labore commodi nostrum corporis
+              ipsum enim eum ex! Sit nihil doloribus quae. Iure sunt recusandae
+              quasi aliquam excepturi repellat esse saepe eveniet, fuga porro,
+              enim non consequatur similique nihil incidunt.
+          </p>
       </div>
-    </section>
+  </section>
+</div>
+
+
+
+
+<!-- 2nd section  -->
+
+      <section class="main1 section3">
+        <div class="section3_d1">
+          <h3 style="color: #0056b3">categories</h3>
+          <h1 style="color: white">
+            Enhance Your <br />
+            Music Experience
+          </h1>
+          <img src="./img/Frame 601.png" width="250" alt="frame" />
+          <button>Buy now</button>
+        </div>
+        <div class="section3_d2">
+          <img src="./img/speaker.png" alt="speaker" />
+        </div>
+      </section>
+
+
+<!-- 3rd section  -->
+
+    
+        <section class="main1 section1">
+          <div class="section1_prdt">
+            <img
+              src="./img/headphone3.png"
+              width="450px"
+              height="450px"
+              class="heroProduct"
+              alt="hero product"
+            />
+            <div class="price">
+              <h3>Boat 55PX</h3>
+              <p>$115</p>
+              <div class="btnPrice">
+                <button class="order">order</button>
+                <button class="cart">cart</button>
+              </div>
+            </div>
+          </div>
+          <p class="s1ProductDetails">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex fugit
+            voluptates dolores natus harum facilis sequi. Inventore odio iure
+            molestias, corrupti odit libero necessitatibus fugiat. Magnam
+            consequatur nulla dolor impedit veritatis? Aliquam, impedit nemo natus
+            sit voluptas atque sunt soluta asperiores nisi laboriosam voluptates
+            cumque
+          </p>
+        </section>
+     
+    </div>
+
+<!-- try --> 
+
+    <!-- card section start  -->
+     <div class="ecard">
+     <div class="card">
+      <img src="./img/headphone4.jpg" alt="Product Image" class="product-image">
+      <div class="product-details">
+          <h2 class="product-title">Product Name</h2>
+          <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+          <p class="product-price">$63.99</p>
+          <a href="#" class="buy-button">Buy Now</a>
+      </div>
   </div>
 
-
-  <!-- 2nd section  -->
-
-  <section class="main1 section3">
-    <div class="section3_d1">
-      <h3 style="color: #0056b3">categories</h3>
-      <h1 style="color: white">
-        Enhance Your <br />
-        Music Experience
-      </h1>
-      <img src="./img/Frame 601.png" width="250" alt="frame" />
-      <button>Buy now</button>
+  <div class="card">
+    <img src="./img/headphone5.jpg" alt="Product Image" class="product-image">
+    <div class="product-details">
+        <h2 class="product-title">Product Name</h2>
+        <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+        <p class="product-price">$49.99</p>
+        <a href="#" class="buy-button">Buy Now</a>
     </div>
-    <div class="section3_d2">
-      <img src="./img/speaker.png" alt="speaker" />
-    </div>
-  </section>
+</div>
+
+<div class="card">
+  <img src="./img/headphone6.jpg" alt="Product Image" class="product-image">
+  <div class="product-details">
+      <h2 class="product-title">Product Name</h2>
+      <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+      <p class="product-price">$39.99</p>
+      <a href="#" class="buy-button">Buy Now</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="./img/headphone7.jpg" alt="Product Image" class="product-image">
+  <div class="product-details">
+      <h2 class="product-title">Product Name</h2>
+      <p class="product-description">This is a short description of the product. It's a great product that solves many problems.</p>
+      <p class="product-price">$70.99</p>
+      <a href="#" class="buy-button">Buy Now</a>
+  </div>
+</div>
+
+</div>
+
+<div class="view-more">
+  <a href="Product.html" class="buy-button">View More</a>
+</div>
 
 
-  <!-- 3rd section  -->
-  <section class="main1 section1">
-    <div class="section1_prdt">
-      <img src="./img/headphone3.png" width="450px" height="450px" class="heroProduct" alt="hero product" />
-      <div class="price">
-        <h3>Boat 55PX</h3>
-        <p>$115</p>
-        <div class="btnPrice">
-          <button class="order">order</button>
-          <button class="cart">cart</button>
+<!-- This is a footer section  -->
+    <footer>
+      <div class="footer">
+        <div class="footer1">
+          <h4>HELP</h4>
+          <p>Support us</p>
+          <p>FAQ's</p>
+          <p>Terms and conditions</p>
+          <p>Privacy policy</p>
+        </div>
+        <div class="footer2">
+          <h4>COMPANY</h4>
+          <p><a href="/" >Home</a></p>
+          <p><a href="/contact.html" >Contact</a></p>
+          <p><a href="/Product.html" >Product</a></p>
+          <p><a href="/about.html">About</a></p>
+      </div>
+      
+        <div class="footer3">
+          <h4>SOCIAL MEDIA</h4>
+          <div class="ftr1" style="padding-bottom: 15px">
+            <img
+              class="icn icnFb"
+              src="./img/facebook-logo.png"
+              height="25"
+              alt="facebook"
+            />
+            <img
+              class="icn icnIg"
+              src="./img/instagram-logo.png"
+              height="25"
+              alt="instagram"
+            />
+            <img
+              class="icn icnTw"
+              src="./img/twitter-logo.png"
+              height="25"
+              alt="twitter"
+            />
+          </div>
+          <div class="ftr2">
+            <img src="./img/logo.png" height="40" alt="footerLogo" />
+          </div>
         </div>
       </div>
-    </div>
-    <p class="s1ProductDetails">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex fugit
-      voluptates dolores natus harum facilis sequi. Inventore odio iure
-      molestias, corrupti odit libero necessitatibus fugiat. Magnam
-      consequatur nulla dolor impedit veritatis? Aliquam, impedit nemo natus
-      sit voluptas atque sunt soluta asperiores nisi laboriosam voluptates
-      cumque
-    </p>
-  </section>
-  </div>
-</body>
+    </footer>
 
+    <script src="script.js"></script> <!-- Link to your external JS file -->
+
+  </body>
 </html>
