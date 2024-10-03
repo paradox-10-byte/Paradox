@@ -308,7 +308,7 @@ text-align: center;
 
 /* Contact us page css */
 
-.background-page{
+.background-page {
 background-image: url(./img/headphone1.png);
 background-position: center;
 background-size: cover;
@@ -448,7 +448,7 @@ button:hover {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   margin: 0 15px; 
   width: 450px; 
-}
+} 
 
 .form-box h2 {
   margin-bottom: 20px;
