@@ -1,6 +1,6 @@
 // script .js carousel image
 const image = [
-    "./img/heroProduct.png",
+    "./img/headphone1.png",
     "./img/headphone13.jpg",
     "./img/headphone15.jpg"
 ];
